@@ -5,6 +5,8 @@
 function SaveSystemFile(){
 	show_debug_message("[Info] SaveSystemFile()")
 	ini_open("Save.ini")
+	// 初次開啟
+	ini_write_real("System", "first", false)
 	// 語言
 	ini_write_real("System", "language", global.LOCALE)
 	// 音效大小
@@ -22,6 +24,8 @@ function SaveSystemFile(){
 function LoadSystemFile(){
 	show_debug_message("[Info] LoadSystemFile()")
 	ini_open("Save.ini")
+	// 初次開啟
+	var first = ini_read_real("System", "first", true)
 	// 語言
 	global.LOCALE = ini_read_real("System", "language", global.SystemSaveDefaultDefine[? "language"])
 	// 音效大小
@@ -31,6 +35,10 @@ function LoadSystemFile(){
 	// 總音量大小
 	global.MASTER_VOL = ini_read_real("System", "masterVol", global.SystemSaveDefaultDefine[? "masterVol"])
 	ini_close()
+	
+	if(first){
+		SaveSystemFile()
+	}
 }
 
 //
@@ -82,3 +90,10 @@ function show_debug_map_message(map){
 	  show_debug_message("[Map message]" + string(key) + ":" + string(value))
 	}
 }
+
+//---------------------Button---------------------
+
+
+
+
+//---------------------Button---------------------

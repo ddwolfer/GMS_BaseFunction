@@ -1,13 +1,18 @@
 {
   "resources": [
     {"id":{"name":"Font_Chinese","path":"fonts/Font_Chinese/Font_Chinese.yy",},"order":0,},
+    {"id":{"name":"oInGameMenu","path":"objects/oInGameMenu/oInGameMenu.yy",},"order":3,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":1,},
     {"id":{"name":"GlobalFunction","path":"scripts/GlobalFunction/GlobalFunction.yy",},"order":1,},
+    {"id":{"name":"spInGameMenuBtn","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},"order":1,},
     {"id":{"name":"Font_English","path":"fonts/Font_English/Font_English.yy",},"order":1,},
+    {"id":{"name":"ButtonScript","path":"scripts/ButtonScript/ButtonScript.yy",},"order":0,},
     {"id":{"name":"GlobalDefine","path":"scripts/GlobalDefine/GlobalDefine.yy",},"order":2,},
-    {"id":{"name":"Menu","path":"objects/Menu/Menu.yy",},"order":0,},
-    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
-    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},"order":0,},
+    {"id":{"name":"oButtonPool","path":"objects/oButtonPool/oButtonPool.yy",},"order":2,},
+    {"id":{"name":"oMenu","path":"objects/oMenu/oMenu.yy",},"order":0,},
+    {"id":{"name":"room1","path":"rooms/room1/room1.yy",},"order":1,},
+    {"id":{"name":"Cursor","path":"sprites/Cursor/Cursor.yy",},"order":0,},
+    {"id":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Linux","path":"options/linux/options_linux.yy",},
@@ -23,7 +28,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
+    {"roomId":{"name":"rTitle","path":"rooms/rTitle/rTitle.yy",},},
+    {"roomId":{"name":"room1","path":"rooms/room1/room1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -40,6 +46,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Scripts/Button.yy","order":4,"resourceVersion":"1.0","name":"Button","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

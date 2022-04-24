@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 28,
-  "bbox_top": 9,
-  "bbox_bottom": 23,
+  "bbox_left": 6,
+  "bbox_right": 33,
+  "bbox_top": 1,
+  "bbox_bottom": 28,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 40,
+  "height": 30,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"f51331a8-9d96-4626-b9f3-74f751e5338c","path":"sprites/Sprite1/Sprite1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"f51331a8-9d96-4626-b9f3-74f751e5338c","path":"sprites/Sprite1/Sprite1.yy",},"LayerId":{"name":"13bfe41c-08fe-4823-b959-70c3044a44e7","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","name":"f51331a8-9d96-4626-b9f3-74f751e5338c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b6c061a9-3691-4ae5-9879-5c4bec2ce8fa","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b6c061a9-3691-4ae5-9879-5c4bec2ce8fa","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},"LayerId":{"name":"0d0e72de-add6-48c0-9ad5-8077071fca79","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spInGameMenuBtn","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},"resourceVersion":"1.0","name":"b6c061a9-3691-4ae5-9879-5c4bec2ce8fa","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},
+    "spriteId": {"name":"spInGameMenuBtn","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"09e95fa8-0083-4336-b0db-ba5c5e2a6585","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f51331a8-9d96-4626-b9f3-74f751e5338c","path":"sprites/Sprite1/Sprite1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"8c910e94-acc4-4060-836c-1d316b24b4f5","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b6c061a9-3691-4ae5-9879-5c4bec2ce8fa","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},
+    "parent": {"name":"spInGameMenuBtn","path":"sprites/spInGameMenuBtn/spInGameMenuBtn.yy",},
     "resourceVersion": "1.4",
-    "name": "Sprite1",
+    "name": "spInGameMenuBtn",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"13bfe41c-08fe-4823-b959-70c3044a44e7","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0d0e72de-add6-48c0-9ad5-8077071fca79","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite1",
+  "name": "spInGameMenuBtn",
   "tags": [],
   "resourceType": "GMSprite",
 }
